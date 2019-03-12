@@ -1,4 +1,4 @@
-# Instruction
+# Instruction for installation in Rapsbian
 
 ## Step 1:
 * Open terminal
