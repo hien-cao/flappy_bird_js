@@ -39,7 +39,7 @@ scor.src = 'static/sounds/score.mp3';
 document.addEventListener('keydown', moveUp);
 
 function moveUp(e) {
-	if (e.keyCode == 32) {
+	if (e.keyCode == 32 || e.keyCode == 38) {
 		bY -= speed;
 		fly.play();
 	}
