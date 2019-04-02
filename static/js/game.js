@@ -24,14 +24,14 @@ fly.src = 'static/sounds/fly.mp3';
 scor.src = 'static/sounds/score.mp3';
 
 // some varaibles
-const gap = 85;
+const gap = 150; // used to be 85
 let constant;
 
 let bX = 50; // initial position of the bird
 let bY = 150; // initial position of the bird
 
-const gravity = 1.5;
-const velocity = 25;
+const gravity = 1.2; // used to be 1.5
+const velocity = 50; // used to be 25
 let score = 0;
 
 // press the key board

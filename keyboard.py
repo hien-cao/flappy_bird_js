@@ -1,7 +1,7 @@
 from pynput.keyboard import Key, Controller
 import serial
 
-arduinoData = serial.Serial('/dev/cu.usbserial-14120', 38400)
+arduinoData = serial.Serial('/dev/cu.usbserial-14440', 38400)
 keyboard = Controller()
 while (True):
     myData = (arduinoData.readline().strip())
